@@ -3,4 +3,7 @@ provider "aws" {
     secret_key=""
     region=""
 }
+resource aws_ec2 "first" {
+  instance_type= t2.micro
+}
 
